@@ -21,50 +21,56 @@
   #logo{
     color: #b3f00b;
     font-size: 30px;
-    margin-right: 120px;
+    margin-left: 50px;
+    position: sticky;
 }
   
-  nav ul {
+  ul {
     list-style-type: none;
-    margin: 0;
+    display: flex;
+    flex-direction: row;
   
   }
-  
-  nav ul li {
+  .listx{
+    margin-top: 100px;
+    position: sticky;
+  }
+  .list{
     display: inline;
-    
-    margin-right: 60px;
+    justify-content: space-evenly;
+    margin-right: 70px;
   }
-  
-  nav ul li a {
+ a {
     color: #fff;
     text-decoration: none;
     
   }
-  #pic{
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-    margin-left: 15px;
+  #z{
+    color: #333;
   }
   .x{
     padding-bottom: 5px;
-    margin-right: 120px;
+    margin-right: 100px;
   }
 
   section {
     padding: 40px;
   }
   
-  h2 {
+  h1,h2 {
+    text-decoration: underline;
     font-size: 32px;
     margin-bottom: 20px;
   }
   
   p {
+    text-align: left;
     margin-bottom: 10px;
   }
-  
+  ol{
+    text-align: left;
+    list-style: circle;
+  }
   .project {
     margin-bottom: 40px;
   }
@@ -81,9 +87,90 @@
   footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
+    text-align:center;
     padding-top: 5px;
   }
-.text{
-    margin-right: 160px;
+  #container{
+    display: flex;
+    flex-direction: row;
+  }
+  .textxy
+  {  
+    margin: 60px;
+    margin-left: 430px;
+    position: sticky;
 }
+.text{
+  display: inline;
+  justify-content: space-evenly;
+    margin: 60px;
+}
+#p{
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+.project,h2,section,header,body,
+ .project h2, footer {
+    width: 100%;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 620px) {
+ol{
+  text-align: start;
+}
+}
+@media only screen and (max-width: 620px) {
+  #p{
+    text-align: center;
+  }
+  }
+  @media only screen and (max-width: 620px) {
+  .x{
+    margin-right: 5px;
+    font-size: 10px;
+  text-align: center;
+  }
+} 
+@media only screen and (max-width: 620px) {
+  h1{
+    font-size: 20px;
+  }
+  }
+  @media only screen and (max-width: 620px) {
+    #logo{
+      font-size: 15px;
+      margin-left: 15px;
+    }
+    }
+    @media only screen and (max-width: 620px) {
+      .y{
+        width: 40px;
+      }
+      }
+      @media only screen and (max-width: 620px) {
+        .text{
+          display: inline;
+          justify-content: space-evenly;
+          margin-right: 30px;
+        }}
+        @media only screen and (max-width: 620px) {
+          .textxy
+          {  
+            margin: 60px;
+            margin-left: 130px;
+            position: sticky;
+          }}
+          @media only screen and (max-width: 620px) {
+            .listx{
+              margin-top: 100px;
+              position: sticky;
+              margin-bottom: 20px;
+            }
+            .list{
+            margin: 40px;
+            justify-content: space-evenly;
+
+            }}
