@@ -1,0 +1,25 @@
+*{
+    margin: 25px;
+    padding: 25px;
+}
+#ab{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 50%;
+}
+#ac{
+    height: 100px;
+    width: 100px;
+ display: inline-block;
+    background-color: aqua;
+    border-radius: 50%;
+}
+#ad{
+    height: 100px;
+    width: 100px;
+ display: inline-block;
+    background-color: aqua;
+    border-radius: 50%;
+}
